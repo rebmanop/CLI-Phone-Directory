@@ -1,0 +1,2 @@
+# Recomended python version: 3.11
+rich==13.5.2
