@@ -43,7 +43,7 @@ class AddRecordAction(Action):
             directory_manager.add_record(record)
         except NotUniquePersonalNumber as e:
             error_message = e.args[0]
-            console.print(f"\n{error_message}[/red]")
+            console.print(f"\n[red]{error_message}[/red]")
             console.input("Press ENTER to get back to the directory...")
             return
 
